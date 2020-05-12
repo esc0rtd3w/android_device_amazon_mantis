@@ -64,9 +64,9 @@ lib/libamazon_remotes.so
 lib/libamazondisplayservice.so
 lib/libamazonwifiservice.so
 lib/libaudioeffect_jni.so
-lib/libaudioflinger.so
-lib/libaudiopolicyenginedefault.so
-lib/libaudiopolicyservice.so
+#lib/libaudioflinger.so
+#lib/libaudiopolicyenginedefault.so
+#lib/libaudiopolicyservice.so
 lib/libaudioresampler.so
 lib/libaudioroute.so
 lib/libaudiospdif.so
@@ -122,7 +122,7 @@ lib/libwifidiags.so
 lib/libwifidiags_jniwrapper.so
 lib/libwlfAmzn.so
 lib/libms12.so
-lib/libaudiopolicymanagerdefault.so
+#lib/libaudiopolicymanagerdefault.so
 lib/libeffects.so
 lib/libwpa_client.so
 lib/libcommon_time_client.so
@@ -147,7 +147,7 @@ lib/soundfx/libeffectproxy.so
 lib/soundfx/libldnhncr.so
 lib/soundfx/libreverbwrapper.so
 lib/soundfx/libvisualizer.so
-lib/libaudiopolicymanager.so
+#lib/libaudiopolicymanager.so
 lib/libmiracast_sink.so
 
 # vendor/app
@@ -316,3 +316,26 @@ etc/init/servicemanager.rc
 etc/init/vdc.rc
 
 priv-app/DisplayMirroring/DisplayMirroring.apk
+priv-app/SystemStatusMonitor/SystemStatusMonitor.apk
+priv-app/SystemStatusMonitorSys/SystemStatusMonitorSys.apk
+app/FireTvResolutionCycler/FireTvResolutionCycler.apk
+
+
+#lib/libmediacodecloggerservice.so
+#lib/libmediadrm.so
+#lib/libmediaextractorservice.so
+#lib/libmediandk.so
+#lib/libmediautils.so
+#lib/libmediacodeclogger.so
+#lib/libmediaerrorlogger.so
+#lib/libmedia_jni.so
+#lib/libmediaplayerservice.so
+#lib/libmemtrack.so
+#lib/libmediacodecservice.so
+#lib/libmediaextension.so
+#lib/libmedialogservice.so        
+#lib/libmedia.so
+
+#lib/libwhitelistmanager.so
+
+
